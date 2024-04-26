@@ -10,3 +10,12 @@ puts favorite_food.class
 puts favorite_food.upcase
 
 # String Methods
+
+class Dog
+    def speak
+        puts "woof"
+    end
+end
+
+lucy = Dog.new
+lucy.speak
